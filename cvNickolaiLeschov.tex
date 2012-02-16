@@ -1,0 +1,82 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2011 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+\moderncvtheme[blue]{casual}                             % optional argument are 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                          % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                              % replace by the encoding you are using
+\usepackage[russian]{babel}
+\usepackage[T2A]{fontenc}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						 % if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Николай}
+\familyname{Лещев}
+\address{Конный  пер. д. 1 кв. 29}{Санкт-Петербург}      % optional, remove the line if not wanted
+\mobile{+7 921 889-04-71}                                % optional, remove the line if not wanted
+\email{theguy@yandex.ru}                                 % optional, remove the line if not wanted
+
+\nopagenumbers{}                                         % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Цель}
+\cvline{}{\small Работа веб-разработчика с использованием современных технологий}
+
+\section{Опыт работы}
+\cventry{декабрь 2007 -- декабрь 2009}{Программист по встроеннным системам}{ЗАО ГАЛУС}{г. Санкт-Петербург}{}{производство приборов-газоанализаторов для добывающей отрасли.\newline{}%
+Должностные обязанности:%
+\begin{itemize}%
+\item программирование микроконтроллеров, выбор компонентов для новых разработок, участие в проектировании печатных плат;
+\end{itemize}
+Инструменты:%
+\begin{itemize}%
+\item C для Microchip PIC, AVR, i186-совместимых контроллеров.
+\end{itemize}}
+
+\cventry{август 2002 -- март 2007}{Программист по встроеннным системам}{ЦНИИ Электроприбор}{г. Санкт-Петербург}{}{производство устройств связи и навигации для надводных и подводных кораблей\newline{}%
+Должностные обязанности:%
+\begin{itemize}%
+\item программирование микроконтроллеров, выбор компонентов для новых разработок, участие в проектировании печатных плат;
+\end{itemize}
+Инструменты:%
+\begin{itemize}%
+\item asm, C, Forth для '51, AVR, Freescale DSP56F803, Технофорт ТФ-2016.
+\end{itemize}}
+
+\cventry{май 2002 -- июль 2002}{Инженер службы поддержки}{ПЕТЕР-СЕРВИС}{г. Санкт-Петербург}{}{разработка коммерческого корпоративного программного обеспечения\newline{}%
+Должностные обязанности:%
+\begin{itemize}%
+\item техническая поддержка биллинговой системы PETER-SERVICE BIS, разработанной на СУБД Oracle, PL/SQL. Клиенты - крупные мировые операторы сотовой связи;
+\end{itemize}
+Инструменты:%
+\begin{itemize}%
+\item Oracle 8i, PL/SQL, PVCS.
+\end{itemize}}
+
+\section{Образование}
+\cventry{1994--2002}{Специальность: вычислительные машины, комплексы, системы и сети}{Санкт-Петербургский государственный электротехнический университет ЛЭТИ}{г. Санкт-Петербург}{}{Description}  % arguments 3 to 6 can be left empty
+\cventry{1999--2000}{Специальность: Computer Science (программа подготовки иностранных студентов на английском языке)}{Lappeenranta University of Technology}{г. Лаппеенранта, Финляндия}{}{Description}
+
+\section{Владение иностранными языками}
+\cvlanguage{Английский}{Свободно}{}
+
+\end{document}
+
+%% end of file `template_en.tex'.
